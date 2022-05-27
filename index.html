@@ -2,15 +2,63 @@
 <head>
     <title>Isaiah Day | Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        body {
+            margin-left: 5px
+        }
+        div.col-md-auto {
+            padding-left: 0px;
+            padding-right: 0px;
+            background-color:#212529;
+            margin-right: 10px;
+        }
+        button.x {
+            padding-left: 0px
+        }
+        button.tab {
+            padding-right: 0px
+        }
+
+        div.search-bar { 
+            padding-right: 10px;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="container" style="margin-left: 3px">
+        <div id="tab-bar" class="row" style="padding-top: 10px">
+          <div class="col-md-auto">
+            <button type="button" class="tab btn btn-dark" onclick="onTabClick(0)">Projects</button>
+            <button type="button" class="x btn btn-dark" onclick="onTabClose(0)">❌</button>
+        </div>
+          <div class="col-md-auto">
+            <button type="button" class="tab btn btn-dark" onclick="onTabClick(1)">About</button>
+            <button type="button" class="x btn btn-dark" onclick="onTabClose(1)">❌</button>
 
-    <h1 style="text-align:center;">Isaiah Day</h1>
+        </div>
+        <div class="col-md-auto">
+            <button type="button" class="tab btn btn-dark" onclick="onTabClick(2)">Contact</button>
+            <button type="button" class="x btn btn-dark" onclick="onTabClose(2)">❌</button>
 
+          </div>
+          <div class="col-md-auto">
+            <button type="button" class="btn btn-dark" onclick="onNewTab()">+</button>
 
+          </div>
+        </div>
+      </div>
 
+      <div class="search-bar input-group mb-3" style="margin-top: 10px;">
+        <input type="text" id="url" value="projects.com" class="form-control" style="outline: 1px solid #212529;">
+        <button type="submit" class="btn btn-outline-dark">Go</button>
+      </div>
+      
+      <div id="page">
+        <h1>test</h1>
+      </div>
+      
+      
 
-
-    
+    <script src="script.js"></script>
 <body>
