@@ -1,6 +1,28 @@
 tabs = [['Projects', 'isaiahday://projects.com'], ['About', 'isaiahday://about.com'], ['Contact', 'isaiahday://contact.com']]
 currentTab = 0
-projects = "<h1>Projects<h1>"
+projects = `
+<h1 style="text-align:center; margin-bottom: 15px">Projects<h1>
+<h3> Finished or close to being finished </h3>
+<div class="container" style="padding-top: 10px;">
+  <div class="row">
+    <div class="col compartment">
+      <a class="lead title" href="https://github.com/Isaiah08-D/BananaOS"> BananaOS </a>
+      <p class="description"> An OS for you and your bananas! </p>
+    </div>
+
+    <div class="col compartment">
+      <a class="lead title" href="https://github.com/Isaiah08-D/Crowtalk"> Crowtalk </a>
+      <p class="description"> A ripof of twiter. </p>
+    </div>
+
+   <div class="col compartment">
+    <a class="lead title" href="https://github.com/Isaiah08-D/BananaOS"> BananaOS </a>
+    <p class="description"> An OS for you and your bananas! </p>
+  </div>
+  </div>
+</div>
+
+`
 about = "<h1>About<h1>"
 contact = "<h1>Contact<h1>"
 newtab = "<h1>New Tab<h1>"
