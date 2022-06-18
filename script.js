@@ -23,9 +23,16 @@ projects = `
 </div>
 
 `
-about = "<h1>About<h1>"
-contact = "<h1>Contact<h1>"
-newtab = "<h1>New Tab<h1>"
+about = `
+<h1>About<h1>
+<p>Just a standard developer! I like unity and, node.js, and python.
+`
+contact = `<h1>Contact<h1>
+Email: isaiahgrisha@gmail.com
+Discord: isaiah08#6008
+Github: Isaiah08-D
+`
+newtab = `<h1>New Tab<h1>`
 
 function onTabClose(tab) { 
    tabs.splice(tab, 1)
